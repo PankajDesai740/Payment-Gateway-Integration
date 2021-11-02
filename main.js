@@ -104,3 +104,7 @@ sr.reveal(`.home__data,.home__img,
     interval:200
 })
 
+var preloader = document.getElementById('loading');
+      function myFunction(){
+          preloader.style.display = 'none';
+      }

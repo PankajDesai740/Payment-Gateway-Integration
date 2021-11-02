@@ -58,6 +58,7 @@
 html{
     scroll-behavior: smooth;
 }
+
 /* -------- Variable Dark Theme ---------- */
 body.dark-theme{
     --title-color:#f1f3f2;
@@ -84,8 +85,15 @@ body{
     background-color: var(--body-color);
     color:var(--text-color);
     line-height:1.6;
-}
 
+}
+#loading{
+    position:fixed;
+    width:100%;
+    height:100vh;
+    background:var(--body-color) url(img/Preloader.gif) no-repeat center;
+    z-index: 9999;
+}
 h1,h2,h3,p,ul{
     margin: 0;
 }
